@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: inter;
+}
+.imageSlider{
+    margin: 0px;
+}
+
+.imageSlider img{
+    width: 100% !important;
+    border-radius: 0px 0px 25px 25px;
+}
+
+.rightSide{
+    float:right ;
+}
+
+.rightSide img{
+    margin-left: 6px;
+}
+
+header{
+position: absolute;
+top: 5px;
+width: 100%;
+padding: 5px;
+}
+
+
+.boxes{
+    display: flex;
+    display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  padding: 10px;
+  color: #fff;
+  gap:10px;
+
+  position: absolute;
+  bottom: 0;
+}
+
+.boxChild{
+    background-color: #2E3192;
+    padding: 20px 10px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 14px;
+}
+

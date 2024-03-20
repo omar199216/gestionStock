@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.rightSide{
+    float:right ;
+}
+
+.rightSide img{
+    margin-left: 6px;
+}
+
+header{
+margin-top: 5px;
+width: 100%;
+padding: 5px;
+}
+
+.container{
+    margin: 10px;
+}
+.searchBar {
+    display: flex;
+    gap: 5px;
+}
+.searchBar input{
+padding: 10px;
+border-radius: 10px;
+width: 100%;
+}
+.nouveauProduit{
+    margin-top: 20px;
+    
+}
+
+.title{
+    font-style: italic;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.ajouter{
+    padding: 10px 20px;
+    background-color: #2E3192;
+    border-radius: 10px;
+    color :white;
+    margin-left: 20px;
+}
+
+.image{
+margin-top: 20px;
+display: flex;
+align-items: center;
+gap: 25px;
+}
+
+.image input{
+    padding: 10px;
+border-radius: 10px;
+
+}
+.details{
+    display : flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.details input{
+    padding: 10px;
+    border-radius: 10px;
+}
+.moreDetails{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+ margin-top: 15px;
+ column-gap :30px;
+ row-gap: 15px;
+}
+
+.detailsChild{
+    display:flex;
+  
+    gap: 10px;
+    flex-direction: column;
+}
+
+.detailsChild input{
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+}
+.buttons{
+    display: flex;
+   margin-top: 15px;
+   gap: 15px;
+}
+.buttons input{
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    border: none;
+}
+.removeBtn{
+    background-color: #DC143C;
+    color: #fff;
+
+}
+
+.updateBtn{
+    background-color: #00FA9A;
+    color: #fff;
+}
+
+input[type=text]{
+    background-color: #D9D9D9;
+    border: none;
+}
+
+.linkMouvement{
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin-top : 15px;
+    text-align: center;
+}
